@@ -30,6 +30,7 @@ a {
     color: #FF7D00;
 }
 
+/* NAV BAR CSS */
 ul {
     list-style: none; /* gets rid of bullets */
     display: flex;
@@ -52,6 +53,7 @@ li a:hover {
 }
 
 li a:active {
-    background-color: white;
-    color: black;
+    background-color: #FFECD1;
+    border: solid .5px #FF7D00;
 }
+/* END OF NAV BAR CSS */

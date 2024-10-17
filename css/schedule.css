@@ -6,3 +6,31 @@ html{
 header h1,h2{
     color: #001524;
 }
+
+/* NAV BAR CSS */
+ul {
+    list-style: none; /* gets rid of bullets */
+    display: flex;
+    margin: 0;
+    padding: 10px 0px;
+    justify-content: flex-end;
+    background-color: #FF7D00;
+}
+
+li a {
+    text-decoration: none; /* gets rid of underline */
+    color: #001524;
+    padding: 10px 30px; /* first val: top/bottom, second val: left/right */
+    
+}
+
+li a:hover {
+    background-color: #001524;
+    color: #FF7D00;
+}
+
+li a:active {
+    background-color: #FFECD1;
+    border: solid .5px #FF7D00;
+}
+/* END OF NAV BAR CSS */
