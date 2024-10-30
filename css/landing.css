@@ -52,3 +52,21 @@ li a:active {
     border: solid .5px #FF7D00;
 }
 /* END OF NAV BAR CSS */
+
+
+
+/* @media screen
+    and (min-width: 1500px)
+    and (min-height: 1000px)
+ {
+  .container {
+  grid-template-columns:
+     1fr 1fr;
+  grid-template-areas:
+    "heady heady"
+    "navvy navvy"
+    "mainy mainy"
+    "aside1 aside2"
+    "footy footy";
+  }
+  }end desktop media query */
