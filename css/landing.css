@@ -6,6 +6,15 @@ body {
     color: #001524;
 }
 
+/* div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 400px;
+    border: 1px solid #CB7254;
+} */
+
 h3 {
     margin-top: 1px;
     margin-bottom: 0;
@@ -23,6 +32,15 @@ p {
 a {
     text-decoration: none;
     color: blue;
+}
+
+img {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-top: 1vw;
 }
 
 /* NAV BAR CSS */
@@ -53,6 +71,22 @@ li a:active {
 }
 /* END OF NAV BAR CSS */
 
+
+@media screen and (max-width: 500px){
+    ul {
+        flex-direction: column;
+    }
+    li {
+        padding: 5px;
+        justify-content: flex-start;
+    }
+    li a {
+        padding-right: 80vw;
+    }
+    li a:hover {
+        background-color: red;
+    }
+}
 
 
 /* @media screen
