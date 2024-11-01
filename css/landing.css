@@ -15,6 +15,23 @@ body {
     border: 1px solid #CB7254;
 } */
 
+
+div {
+    margin: 4%;
+    border-radius: 20px;
+    padding: 4%;
+    background-color: #78290F;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #001524;
+    color: #FFECD1;
+}
+
+#container {
+    margin-top: 1%;
+    background-color: #15616D;
+}
+
 h3 {
     margin-top: 1px;
     margin-bottom: 0;
@@ -31,7 +48,7 @@ p {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #FF7D00;
 }
 
 img {

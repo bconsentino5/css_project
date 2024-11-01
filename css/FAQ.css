@@ -39,3 +39,33 @@ p {
     line-height: 2; 
     margin: 30px 0; 
 }
+
+img {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    padding-top: 1vw;
+}
+
+div {
+    margin: 4%;
+    border-radius: 20px;
+    padding: 4%;
+    background-color: #78290F;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #001524;
+    color: #FFECD1;
+}
+
+#container {
+    margin-top: 1%;
+    background-color: #15616D;
+}
+
+a {
+    text-decoration: none;
+    color: #FF7D00;
+}
